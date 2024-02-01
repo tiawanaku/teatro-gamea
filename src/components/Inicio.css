@@ -1,0 +1,26 @@
+/* Inicio.css */
+.parallax-container {
+    position: relative;
+    height: 400px; /* Ajusta la altura de acuerdo a tus preferencias */
+    overflow: hidden;
+  }
+  
+  .parallax-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+  }
+  
+  .parallax-image img {
+    width: 100%;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.4s ease; /* Ajusta la velocidad de desplazamiento aquí */
+  }
+  
+  .parallax-container:hover .parallax-image img {
+    transform: translate3d(0, -20px, 0); /* Ajusta la cantidad de desplazamiento vertical aquí */
+  }
+  

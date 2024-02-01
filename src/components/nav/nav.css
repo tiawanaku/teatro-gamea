@@ -1,0 +1,38 @@
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-links li {
+    padding: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  nav {
+    width: 100%;
+    position: fixed; /* Fija el menú en la parte superior */
+    top: 0; /* Asegúrate de que esté en la parte superior de la página */
+    z-index: 1000; /* Asegúrate de que esté sobre otros elementos */
+  }
+
+  /* nav.css */
+.navbar-brand {
+  font-weight: bold;
+  /* Otros estilos personalizados que desees aplicar */
+}
+
+.nav-link {
+  font-size: 1rem;
+  /* Otros estilos personalizados que desees aplicar */
+}
+
+/* Asegúrate de que el contenido de la página comience después de la barra de navegación */
+body {
+  padding-top: 56px; /* Ajusta este valor según la altura de tu barra de navegación de Bootstrap */
+}

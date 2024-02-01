@@ -29,3 +29,25 @@
 .card-text {
   margin-bottom: 1rem;
 }
+
+.carousel-background {
+  height: 400px; /* La altura del carrusel, ajusta según sea necesario */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-item {
+  position: relative;
+  height: 400px; /* Asegúrate de que esto coincida con la altura de .carousel-background */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding-top: 50px; /* Ajusta este valor según la altura de tu nav */
+}
